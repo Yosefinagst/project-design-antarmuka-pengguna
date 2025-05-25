@@ -6,6 +6,10 @@ body {
   background-color: #ffffff;
 }
 
+.nav-text {
+    background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
+}
+
 .logo-img {
   height: 28px;
 }
@@ -42,10 +46,6 @@ body {
   max-width: 500px;
   background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.main-menu {
-      background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
 }
 
 .bg-secondary-subtle {
@@ -90,3 +90,35 @@ body {
 .comment-btn:hover {
   background-color: rgb(234, 148, 0);
 }
+
+@media (max-width: 1500px) {
+  .menu-center {
+    gap: 16px;
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+  .donation-card {
+    padding: 24px;
+    max-width: 100%;
+  }
+}
+
+/* --- MOBILE --- */
+@media (max-width: 663px) {
+  .menu-center {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .donation-card {
+    padding: 16px;
+    margin: 0 10px;
+    border-radius: 16px;
+  }
+  .img-full-height,
+  .col-md-6.p-0 {
+    display: none !important;
+  }
+}
+
