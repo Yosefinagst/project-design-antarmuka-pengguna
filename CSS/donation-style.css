@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-white {
+  background-color: #ffffff;
+}
+
+.logo-img {
+  height: 28px;
+}
+
+.menu-center {
+  background-color: #D9D9D9;
+  padding: 8px 30px;
+  border-radius: 999px;
+}
+
+.menu-center .nav-link {
+  font-weight: 600;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img-full-height {
+  height: 100%;
+  max-height: 400px;
+  max-width: 400px;
+  object-fit: fill;
+}
+
+.donation-card {
+  max-width: 500px;
+  background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-menu {
+      background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
+}
+
+.bg-secondary-subtle {
+    background: linear-gradient(135deg, #92E3A9 0%, #42C92C 100%);
+}
+
+.btn.btn-light {
+     background-color: #f3f3f3;
+}
+
+.btn-light {
+  background-color: #ddd;
+  border: none;
+}
+
+.input-group-text {
+  background-color: #f6a821;
+  border: none;
+}
+
+.btn.btn-secondary {
+    background-color: #f6a821;
+}
+
+.btn.btn-secondary:hover {
+    background-color: rgb(234, 148, 0);
+}
+
+.comment-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f6a821;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.comment-btn:hover {
+  background-color: rgb(234, 148, 0);
+}
